@@ -56,5 +56,16 @@
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.ValueTuple">
+      <Version>4.5.0</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ssapj.Utilities.Converter\ssapj.Utilities.Converter.csproj">
+      <Project>{5b6cbe96-a016-4223-b7d7-49f232d0ff66}</Project>
+      <Name>ssapj.Utilities.Converter</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
