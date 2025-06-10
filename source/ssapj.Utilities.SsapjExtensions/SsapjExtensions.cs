@@ -1,4 +1,4 @@
-using BarTender;
+﻿using BarTender;
 using System.Collections.Generic;
 using static ssapj.Utilities.Converter;
 // ReSharper disable CheckNamespace
